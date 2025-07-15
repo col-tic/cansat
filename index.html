@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel IoT - Laura Arteaga</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    iframe {
+      border: 1px solid #ccc;
+      margin: 20px auto;
+      display: block;
+      width: 90%;
+      max-width: 600px;
+      height: 260px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Panel IoT - Datos en Tiempo Real</h1>
+
+  <iframe src="https://thingspeak.mathworks.com/channels/2928250/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" title="Sensor 1"></iframe>
+
+  <iframe src="https://thingspeak.mathworks.com/channels/2928250/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" title="Sensor 3"></iframe>
+
+  <iframe src="https://thingspeak.mathworks.com/channels/2928250/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" title="Sensor 4"></iframe>
+
+  <p>Canal: 2928250 - Autor: mwa0000036860683</p>
+</body>
+</html>
